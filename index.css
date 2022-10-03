@@ -136,3 +136,14 @@ td:nth-child(3n) {
   padding: 0.5rem;
   border-radius: 0.25rem;
 }
+
+.navList li:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.navList li {
+  text-decoration: underline;
+  transition: all 500ms ease-out;
+}
