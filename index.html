@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Awesome books project</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Awesome Books</div>
+      <div>
+        <ul class="navList">
+          <li id="navBooklist"><a href="#booksInput">List</a></li>
+          <li id="navNewbook"><a href="#inputForm">Add new</a></li>
+          <li id="navContact"><a href="#contactForm">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container">
+      <div id="currentDate"></div>
+      <div id="booksInput">
+        <h1>All awesome books</h1>
+        <div>
+          <table class="table">
+            <tbody id="book-list"></tbody>
+          </table>
+        </div>
+      </div>
+      <form id="inputForm">
+        <h1>Add a new book</h1>
+        <div class="form">
+          <label for="title" hidden>Title</label>
+          <input class="forminput" type="text" id="titleInput" placeholder="Title" required>
+        </div>
+        <div class="form">
+          <label for="author" hidden>Author</label>
+          <input class="forminput" type="text" id="authorInput" placeholder="Author" required>
+        </div>
+        <div class="form form-btn">
+          <label for="button" hidden>Add Book</label>
+          <input type="submit" class="add-btn" value="Add">
+        </div>
+      </form>
+      <div id="contactForm">
+        <h1>Contact information</h1>
+        <p>Do you have any questions or just want to say hello? <br> You can reach out to us!</p>
+        <ul>
+          <li>Our email: mail@mail.com</li>
+          <li>Our phone number: 00123456789</li>
+          <li>Our address: Streetname 23, 84503 City, Country</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">©️ Copyright
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
