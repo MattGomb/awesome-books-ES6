@@ -58,6 +58,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.forminput {
+  padding: 0.5rem;
+}
+
 .table {
   width: 100%;
   margin: 0;
@@ -95,6 +99,11 @@ td:nth-child(3n) {
   align-self: flex-end;
 }
 
+.add-btn {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -121,4 +130,9 @@ td:nth-child(3n) {
   align-self: flex-end;
   margin-right: 1rem;
   margin-top: 1rem;
+}
+
+.remove {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }
