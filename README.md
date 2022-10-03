@@ -1,56 +1,74 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books 
 
-> Description the project.
+> This is the restructured version of the famous awesome-books project! Here you can find JavaScript broken into modules, using import-export where necessary.
+Also updated the current time feature to use LUXON, which was a project requirement.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
+- Still no Frameworks allowed ;)
+- GitHub, GitHub Desktop, VSCode editor
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mattgomb.github.io/awesome-books-ES6/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+1 - Above the list of files, click on the "Code" button
 
+2 - Copy the URL for the repository.
 
-To get a local copy up and running follow these simple example steps.
+3 - To clone the repository using HTTPS, under "HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click . To clone a repository using GitHub CLI, click GitHub CLI, then click . The clipboard icon for copying the URL to clone a repository with GitHub CLI
+
+4 - Open Git Bash.
+
+5 - Change the current working directory to the location where you want the cloned directory.
+
+6 - Type git clone, and then paste the URL you copied earlier.
+
+7 - Press Enter to create your local clone.
+
 
 ### Prerequisites
 
+- Functioning computer
+- Internet connection
+- Basic understanding of Git and GitHub
+
+
 ### Setup
+
+- No setup required
+
 
 ### Install
 
+- A code editor (e.g. VSC) /text editor (e.g. notepad++) 
+
 ### Usage
+
+- Feel free to use this repo to play around with basic HTML, CSS, and JavaScript elements and solutions
 
 ### Run tests
 
+- No testing required
+
 ### Deployment
 
-
+- This project is deployed in GitHub pages
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MattGomb](https://github.com/MattGomb)
+- Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/gombos-mátyás-28139771/)
 
 ## 🤝 Contributing
 
@@ -64,12 +82,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
