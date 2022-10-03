@@ -1,6 +1,6 @@
-import Book from './modules/book';
-import Store from './modules/localStorage';
-import userInterface from './modules/UI';
+import Store from './modules/localStorage.js';
+import Book from './modules/book.js';
+import userInterface from './modules/UI.js';
 
 // display event
 document.addEventListener('DOMContentLoaded', userInterface.displayBooks);
@@ -28,7 +28,6 @@ document.querySelector('#inputForm').addEventListener('submit', (e) => {
 
 // delete books
 document.querySelector('#book-list').addEventListener('click', (e) => {
-
   // remove from interface
   userInterface.deleteBook(e.target);
 

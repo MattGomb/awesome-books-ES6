@@ -1,5 +1,3 @@
-//import Book from './book.js';
-
 export default class Store {
   static getBooks() {
     let books;

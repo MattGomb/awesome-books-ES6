@@ -1,4 +1,4 @@
-import Store from "./localStorage";
+import Store from './localStorage.js';
 
 export default class userInterface {
   static displayBooks() {
