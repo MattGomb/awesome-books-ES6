@@ -1,6 +1,7 @@
 import Store from './modules/localStorage.js';
 import Book from './modules/book.js';
 import userInterface from './modules/UI.js';
+import { DateTime } from './modules/luxon.js';
 
 // display event
 document.addEventListener('DOMContentLoaded', userInterface.displayBooks);
@@ -55,10 +56,4 @@ document.getElementById('navContact').addEventListener('click', () => {
 });
 
 // dynamic date
-const date = new Date();
-const year = date.getFullYear();
-const month = date.getMonth() + 1;
-const day = date.getDate();
-const hour = date.getHours();
-const minutes = date.getMinutes();
-document.getElementById('currentDate').innerHTML = `${month}/${day}/${year} ${hour}:${minutes}`;
+document.querySelector('#currentDate').innerHTML = DateTime.now().toFormat('MM/dd/yyyy, hh:mm');
