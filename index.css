@@ -150,6 +150,12 @@ td:nth-child(3n) {
   box-shadow: 4px 8px #1a1a1a49;
 }
 
+.remove:active,
+.add-btn:active {
+  transform: translateX(1px);
+  box-shadow: 2px 6px #1a1a1a49;
+}
+
 .navList li {
   text-decoration: underline;
   transition: all 500ms ease-out;
