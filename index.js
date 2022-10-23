@@ -24,7 +24,7 @@ document.querySelector('#inputForm').addEventListener('submit', (e) => {
   Store.addBook(book);
 
   // clear inputfields
-  userInterface.clearFields();
+  e.target.reset();
 });
 
 // delete books

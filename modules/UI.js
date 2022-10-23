@@ -26,9 +26,4 @@ export default class userInterface {
       element.parentElement.parentElement.remove();
     }
   }
-
-  static clearFields() {
-    document.querySelector('#titleInput').value = '';
-    document.querySelector('#authorInput').value = '';
-  }
 }
