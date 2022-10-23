@@ -137,10 +137,22 @@ td:nth-child(3n) {
   border-radius: 0.25rem;
 }
 
+.remove, .add-btn {
+  background-color: transparent;
+}
+
+.remove:hover, .add-btn:hover {
+  cursor: pointer ;
+  font-weight: bold;
+	transform:translateY(-1px);
+  box-shadow: 4px 8px #1a1a1a49
+}
+
 .navList li:hover {
   cursor: pointer;
   color: white;
   font-weight: bold;
+  box-shadow: 4px 4px #1a1a1a49
 }
 
 .navList li {
